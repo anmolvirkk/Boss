@@ -1,0 +1,42 @@
+header {
+  height: 100px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 3em 0 0 3em;
+  box-sizing: border-box;
+  position: relative;
+}
+header img {
+  height: 60px;
+  cursor: pointer;
+}
+.headerNav {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  margin-left: 5vw;
+}
+.headerNav li {
+  cursor: pointer;
+  margin-right: 7vw;
+  font-size: 0.8em;
+}
+.headerNav .selected {
+  background-color: black;
+  color: white;
+  padding: 10px 15px 10px 15px;
+}
+.bag {
+  background-color: black;
+  color: white;
+  width: 15%;
+  height: 100px;
+  padding-left: 5em;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  position: absolute;
+  right: 0;
+  font-size: 0.8em;
+}

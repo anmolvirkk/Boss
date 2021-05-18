@@ -1,0 +1,28 @@
+.productTile {
+  margin: 2em;
+  width: 20vw;
+  margin-top: 0;
+}
+
+.productTile img {
+  object-fit: cover;
+}
+
+.productTile h1 {
+  margin: 0;
+  line-height: 0;
+  line-height: 1.5;
+  font-size: 1.5em;
+}
+
+.productTile p {
+  font-weight: 300;
+  margin-bottom: 1em;
+  line-height: 1;
+}
+
+.productTile h2 {
+  font-weight: 400;
+  font-size: 1em;
+  margin-top: 1.5em;
+}
